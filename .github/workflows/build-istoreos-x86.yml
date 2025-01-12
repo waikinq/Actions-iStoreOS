@@ -37,10 +37,10 @@ jobs:
           - x86
         os:
           - ubuntu-22.04
-        include:
-          - REPO_BRANCH: istoreos-22.03
-            ARCHITECTURE: x86-alpha
-            os: ubuntu-22.04
+        #include:
+        #  - REPO_BRANCH: istoreos-22.03
+        #    ARCHITECTURE: x86-alpha
+        #    os: ubuntu-22.04
 
       fail-fast: false
 
